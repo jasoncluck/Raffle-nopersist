@@ -8,13 +8,13 @@ gem 'rails', '3.2.13'
 gem 'execjs'
 gem 'therubyracer'
 gem 'ember-rails'
-
+gem 'pg'
 group :development do
 	gem 'sqlite3'
 end
 
 group :deployment do
-	gem 'pg'
+	
 end
 # Gems used only for assets and not required
 # in production environments by default.
